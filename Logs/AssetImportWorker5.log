@@ -1,0 +1,662 @@
+Using pre-set license
+Built from '6000.1/staging' branch; Version is '6000.1.13f1 (418bd0acaa6b) revision 4295632'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'en' Physical Memory: 23926 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+Date: 2025-08-26T06:26:53Z
+
+COMMAND LINE ARGUMENTS:
+D:\Unity 6.1\6000.1.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+D:/Create with Code/Simple RPG
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+60173
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: D:/Create with Code/Simple RPG
+D:/Create with Code/Simple RPG
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [18268]  Target information:
+
+Player connection [18268]  * "[IP] 172.25.48.1 [Port] 0 [Flags] 2 [Guid] 2131254479 [EditorId] 2131254479 [Version] 1048832 [Id] WindowsEditor(7,Chimix) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [18268]  * "[IP] 10.10.63.180 [Port] 0 [Flags] 2 [Guid] 2131254479 [EditorId] 2131254479 [Version] 1048832 [Id] WindowsEditor(7,Chimix) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [18268] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [18268] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 2.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.1.13f1 (418bd0acaa6b)
+[Subsystems] Discovering subsystems at path D:/Unity 6.1/6000.1.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Create with Code/Simple RPG/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2560)
+    Vendor:          NVIDIA
+    VRAM:            5996 MB
+    App VRAM Budget: 5228 MB
+    Driver:          32.0.15.8108
+Initialize mono
+Mono path[0] = 'D:/Unity 6.1/6000.1.13f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity 6.1/6000.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity 6.1/6000.1.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56576
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity 6.1/6000.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity 6.1/6000.1.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001669 seconds.
+- Loaded All Assemblies, in  0.484 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.497 seconds
+Domain Reload Profiling: 981ms
+	BeginReloadAssembly (153ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (212ms)
+		LoadAssemblies (152ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (208ms)
+			TypeCache.Refresh (206ms)
+				TypeCache.ScanAssembly (190ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (498ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (441ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (76ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (188ms)
+			ProcessInitializeOnLoadMethodAttributes (82ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.920 seconds
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.919 seconds
+Domain Reload Profiling: 1838ms
+	BeginReloadAssembly (220ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (592ms)
+		LoadAssemblies (417ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (290ms)
+			TypeCache.Refresh (216ms)
+				TypeCache.ScanAssembly (198ms)
+			BuildScriptInfoCaches (59ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (919ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (686ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (145ms)
+			ProcessInitializeOnLoadAttributes (468ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6081 unused Assets / (4.9 MB). Loaded Objects now: 6801.
+Memory consumption went from 137.4 MB to 132.4 MB.
+Total: 13.484400 ms (FindLiveObjects: 1.058100 ms CreateObjectMapping: 1.330300 ms MarkObjects: 7.126000 ms  DeleteObjects: 3.968300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 361520.568365 seconds.
+  path: Assets/QuangPhan/Common/DEMO/HDRP_Settings/HDRPDefaultResources/DefaultLookDevProfile.asset
+  artifactKey: Guid(254320a857a30444da2c99496a186368) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/QuangPhan/Common/DEMO/HDRP_Settings/HDRPDefaultResources/DefaultLookDevProfile.asset using Guid(254320a857a30444da2c99496a186368) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e6ac99289e0a9e17de275ba6b3c75124') in 0.2573937 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/QuangPhan/Common/DEMO/HDRP_Settings/HDRPDefaultResources/DefaultSceneRoot.prefab
+  artifactKey: Guid(2bfa7b9d63fa79e4abdc033f54a868d2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/QuangPhan/Common/DEMO/HDRP_Settings/HDRPDefaultResources/DefaultSceneRoot.prefab using Guid(2bfa7b9d63fa79e4abdc033f54a868d2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c9d1ddb1b36944befc98090137c1256f') in 0.0379043 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/QuangPhan/G2_Mercenaries/Materials/Clothings/Examples/MI_Shirts 1.mat
+  artifactKey: Guid(9800456582b472640b97cdbcb101af0f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/QuangPhan/G2_Mercenaries/Materials/Clothings/Examples/MI_Shirts 1.mat using Guid(9800456582b472640b97cdbcb101af0f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '72355b54f873a3376711343bbde59332') in 0.3579221 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/QuangPhan/G2_Mercenaries/Meshes/SK_Sword.fbx
+  artifactKey: Guid(0cc0be68f9652c24f9601d73ac154302) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/QuangPhan/G2_Mercenaries/Meshes/SK_Sword.fbx using Guid(0cc0be68f9652c24f9601d73ac154302) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c84097b9ab6422c7d60b8d8e5fbc138c') in 0.0635651 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/QuangPhan/G2_Mercenaries/Textures/Characters/Skins/T_MBody_BC.tga
+  artifactKey: Guid(541af5418051d26449b5d01304adb87a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/QuangPhan/G2_Mercenaries/Textures/Characters/Skins/T_MBody_BC.tga using Guid(541af5418051d26449b5d01304adb87a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ec18704a09b3e2946c0762bbfa492b4a') in 0.0644783 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/QuangPhan/G2_Mercenaries/Textures/Characters/Skins/T_Body_N.tga
+  artifactKey: Guid(e1d25c5059a023d47b25fe67483f4b63) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/QuangPhan/G2_Mercenaries/Textures/Characters/Skins/T_Body_N.tga using Guid(e1d25c5059a023d47b25fe67483f4b63) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8a7175fa9427433b09ac90d56d50928c') in 0.0419648 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/QuangPhan/Common/Textures/Underwear/T_Bikini_Dirt.tga
+  artifactKey: Guid(1016de2a6035abc4888f902c60cffb04) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/QuangPhan/Common/Textures/Underwear/T_Bikini_Dirt.tga using Guid(1016de2a6035abc4888f902c60cffb04) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '39e669da27037f1aba0c136dd1d1c0d7') in 0.0249882 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/QuangPhan/Common/DEMO/HDRP_Settings/HDRPDefaultResources/DefaultHDRISky.exr
+  artifactKey: Guid(54a3a0570aebe8949bec4966f1376581) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/QuangPhan/Common/DEMO/HDRP_Settings/HDRPDefaultResources/DefaultHDRISky.exr using Guid(54a3a0570aebe8949bec4966f1376581) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '984f54f5e0c828e9f5f365c3cb3fb682') in 0.034582 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/QuangPhan/Common/Materials/MI_Floor_C.mat
+  artifactKey: Guid(0d73a62b42d81c248981281025c8c5f5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/QuangPhan/Common/Materials/MI_Floor_C.mat using Guid(0d73a62b42d81c248981281025c8c5f5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b2a3a829bd479804929c2732ee8dedbc') in 0.2056596 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/QuangPhan/G2_Mercenaries/Textures/Characters/Skins/T_MHead_ORM.tga
+  artifactKey: Guid(f27f6adc8e07e99448d97a1687cc5e41) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/QuangPhan/G2_Mercenaries/Textures/Characters/Skins/T_MHead_ORM.tga using Guid(f27f6adc8e07e99448d97a1687cc5e41) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'df6dbe6891a2c0c1d4efda6239ac4d6f') in 0.0204051 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/QuangPhan/G2_Mercenaries/Textures/Clothes/Clothes/T_Gloves_M.tga
+  artifactKey: Guid(e763623a86659c2479929db0e3f34c04) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/QuangPhan/G2_Mercenaries/Textures/Clothes/Clothes/T_Gloves_M.tga using Guid(e763623a86659c2479929db0e3f34c04) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0a3726198c529fed00dc726dd789493b') in 0.0196748 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/QuangPhan/G2_Mercenaries/Textures/Clothes/Clothes/T_Gloves_Dirt.tga
+  artifactKey: Guid(51fcc980456d5bf4884ef71e107a6a37) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/QuangPhan/G2_Mercenaries/Textures/Clothes/Clothes/T_Gloves_Dirt.tga using Guid(51fcc980456d5bf4884ef71e107a6a37) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd865990e1294a3fa2ea803c3b3ec70c1') in 0.0230885 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/QuangPhan/Common/DEMO/InputSystem.inputsettings.asset
+  artifactKey: Guid(0080f10fa8f3d7645883ffa7f095ef2d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/QuangPhan/Common/DEMO/InputSystem.inputsettings.asset using Guid(0080f10fa8f3d7645883ffa7f095ef2d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c830a6bf951e18fe597a5d242628bcaf') in 0.0410046 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/QuangPhan/G2_Mercenaries/Meshes/SK_PP801_Mercenary_SourceMeshes.fbx
+  artifactKey: Guid(5f29e124ccb4b634783c88003bdc112d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/QuangPhan/G2_Mercenaries/Meshes/SK_PP801_Mercenary_SourceMeshes.fbx using Guid(5f29e124ccb4b634783c88003bdc112d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9c684049163fbf5b8bfabe8cf83328a3') in 0.0994266 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 333
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/QuangPhan/G2_Mercenaries/Textures/Clothes/Clothes/T_Swords_ORM.tga
+  artifactKey: Guid(938833c7b30f5ee42bf6dad50abac92d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/QuangPhan/G2_Mercenaries/Textures/Clothes/Clothes/T_Swords_ORM.tga using Guid(938833c7b30f5ee42bf6dad50abac92d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2c2c7d6e37eb1372be43383f58d2df5b') in 0.033635 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/QuangPhan/G2_Mercenaries/Textures/Clothes/Clothes/T_Shirts_ORM.tga
+  artifactKey: Guid(68d9fa8cb26ad8845abe80b2436fdc8c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/QuangPhan/G2_Mercenaries/Textures/Clothes/Clothes/T_Shirts_ORM.tga using Guid(68d9fa8cb26ad8845abe80b2436fdc8c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '580105f2e1cda18bb063027981bbf1d4') in 0.027146 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/QuangPhan/G2_Mercenaries/Textures/Clothes/Clothes/T_Shirts_BC.tga
+  artifactKey: Guid(1ec286d76c10b674bbf2739f1b2bfdfa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/QuangPhan/G2_Mercenaries/Textures/Clothes/Clothes/T_Shirts_BC.tga using Guid(1ec286d76c10b674bbf2739f1b2bfdfa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1173b08589e79d6251403533c65f156e') in 0.0297365 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/QuangPhan/G2_Mercenaries/Textures/Clothes/Clothes/T_Shoes_Dirt.tga
+  artifactKey: Guid(68b1c5c8756018c4bae56d429a7deb47) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/QuangPhan/G2_Mercenaries/Textures/Clothes/Clothes/T_Shoes_Dirt.tga using Guid(68b1c5c8756018c4bae56d429a7deb47) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '44619097b70310fbaec41e5018265278') in 0.0227001 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/QuangPhan/G2_Mercenaries/Textures/Clothes/Clothes/T_Pants_N.tga
+  artifactKey: Guid(6bb016364603b6a4a876a5cc5fb2e46a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/QuangPhan/G2_Mercenaries/Textures/Clothes/Clothes/T_Pants_N.tga using Guid(6bb016364603b6a4a876a5cc5fb2e46a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a65e3fbbf484a4dfe42c26c4ca14cab5') in 0.0379417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/QuangPhan/G2_Mercenaries/Textures/Characters/Skins/T_Body_TattooMask.tga
+  artifactKey: Guid(f5935b3b310cacb46a6db6bf9a94b65a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/QuangPhan/G2_Mercenaries/Textures/Characters/Skins/T_Body_TattooMask.tga using Guid(f5935b3b310cacb46a6db6bf9a94b65a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '60c9afbbaa20759cc40615a2326c8c7f') in 0.0350525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/QuangPhan/G2_Mercenaries/Textures/Characters/Skins/T_MHead_N.tga
+  artifactKey: Guid(f38ea8269a2d7994ba165124da0b18bf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/QuangPhan/G2_Mercenaries/Textures/Characters/Skins/T_MHead_N.tga using Guid(f38ea8269a2d7994ba165124da0b18bf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '178e2bc54c0d93fc0ac216597747fb7e') in 0.0221127 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/QuangPhan/G2_Mercenaries/Scene/Overview/LightingData.asset
+  artifactKey: Guid(f5d5d9c3361c24b428f55f823c7031d2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/QuangPhan/G2_Mercenaries/Scene/Overview/LightingData.asset using Guid(f5d5d9c3361c24b428f55f823c7031d2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b29b0645f0f8399cdb52c71476ea0b68') in 0.0133591 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/QuangPhan/Common/DEMO/Animations/Jump--InAir.anim.fbx
+  artifactKey: Guid(063aa479676c4084ebf187660ca0a7b8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/QuangPhan/Common/DEMO/Animations/Jump--InAir.anim.fbx using Guid(063aa479676c4084ebf187660ca0a7b8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '419b53fc0a160213e9a8bd2f751c6623') in 0.0264445 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 144
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/QuangPhan/Common/Textures/Tilling Textures/T_TextureSample7_BC.tga
+  artifactKey: Guid(9bc433aaaa3d4574b9d44b8d11224324) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/QuangPhan/Common/Textures/Tilling Textures/T_TextureSample7_BC.tga using Guid(9bc433aaaa3d4574b9d44b8d11224324) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '539dcd4d584aacc3eaf96be72ed15b84') in 0.0233858 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/QuangPhan/Common/Materials/MI_Teeth.mat
+  artifactKey: Guid(313ef5d269bbf0f4abb0b4bf098127e8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/QuangPhan/Common/Materials/MI_Teeth.mat using Guid(313ef5d269bbf0f4abb0b4bf098127e8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1d96247e1761885f635f64712f5f646f') in 0.0431661 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/QuangPhan/G2_Mercenaries/Textures/Characters/Hairs/T_Hair_ID.tga
+  artifactKey: Guid(2f35350e90aad8e47a89cfc6d96648f3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/QuangPhan/G2_Mercenaries/Textures/Characters/Hairs/T_Hair_ID.tga using Guid(2f35350e90aad8e47a89cfc6d96648f3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7013862574382565bf001e2b8dbdcdac') in 0.0302555 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/QuangPhan/G2_Mercenaries/Textures/Characters/Skins/T_Head_Dirt.tga
+  artifactKey: Guid(757e41850bef046498f3fc127cf580d7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/QuangPhan/G2_Mercenaries/Textures/Characters/Skins/T_Head_Dirt.tga using Guid(757e41850bef046498f3fc127cf580d7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '46dcb7bf4c12e5be3bd2e54ca53a3701') in 0.0262962 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/QuangPhan/G2_Mercenaries/Prefabs/Originals/SK_Sword.prefab
+  artifactKey: Guid(cd68f50f10196e94095798ce93889b28) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/QuangPhan/G2_Mercenaries/Prefabs/Originals/SK_Sword.prefab using Guid(cd68f50f10196e94095798ce93889b28) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6d0159bd58cd3c4c0244958be7a09e21') in 0.0146386 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/QuangPhan/Common/Materials/MI_EyesBlendColor.mat
+  artifactKey: Guid(b92266375b6d56247862cfa827284266) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/QuangPhan/Common/Materials/MI_EyesBlendColor.mat using Guid(b92266375b6d56247862cfa827284266) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '162708908791023328e38a89322d5f57') in 0.1888931 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/QuangPhan/G2_Mercenaries/Textures/Characters/Hairs/T_HairBlode_BC.tga
+  artifactKey: Guid(6ca77f6ce8d5d934da2a08d1e6a7d4da) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/QuangPhan/G2_Mercenaries/Textures/Characters/Hairs/T_HairBlode_BC.tga using Guid(6ca77f6ce8d5d934da2a08d1e6a7d4da) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9e605dcb61072886d38f12cdd9c88f14') in 0.0237645 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/QuangPhan/Common/Materials/MI_Floor_A.mat
+  artifactKey: Guid(45e68d553b88d7341b4c49f949c57024) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/QuangPhan/Common/Materials/MI_Floor_A.mat using Guid(45e68d553b88d7341b4c49f949c57024) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5513c26949d5766b80e39466510531c1') in 0.0203645 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/QuangPhan/Common/Textures/Eyes/T_Eyes_M.tga
+  artifactKey: Guid(7d1c5231b89524643b7c1d5de6014c7d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/QuangPhan/Common/Textures/Eyes/T_Eyes_M.tga using Guid(7d1c5231b89524643b7c1d5de6014c7d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '03980ec9de7f073a8b60caf7e64e52e4') in 0.0221501 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/QuangPhan/Common/Textures/Underwear/T_Underwear_M.tga
+  artifactKey: Guid(901e0a5291a1d294386e063c32a3a1a9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/QuangPhan/Common/Textures/Underwear/T_Underwear_M.tga using Guid(901e0a5291a1d294386e063c32a3a1a9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b91453e9c185807b240fd0d087229ed1') in 0.0256436 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/QuangPhan/Common/Textures/HumanSkins/T_Head_M.tga
+  artifactKey: Guid(6758a133ad43c2d4e84d4e1a1c4b0696) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/QuangPhan/Common/Textures/HumanSkins/T_Head_M.tga using Guid(6758a133ad43c2d4e84d4e1a1c4b0696) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cc36640482f51801ad5e4a3831841b47') in 0.0213172 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/QuangPhan/G2_Mercenaries/Textures/Clothes/Clothes/T_Shoes_M.tga
+  artifactKey: Guid(ee64d1f08c97a9d42869da697357a461) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/QuangPhan/G2_Mercenaries/Textures/Clothes/Clothes/T_Shoes_M.tga using Guid(ee64d1f08c97a9d42869da697357a461) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5259425695f4326cb29d4aab43baa956') in 0.0250192 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/QuangPhan/G2_Mercenaries/Meshes/SK_LP287_FPSArms.fbx
+  artifactKey: Guid(d7a61619a8527114a8adf4c264619b03) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/QuangPhan/G2_Mercenaries/Meshes/SK_LP287_FPSArms.fbx using Guid(d7a61619a8527114a8adf4c264619b03) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd471e2d5e2935b14f71cadc945a3982d') in 0.0278218 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 197
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/QuangPhan/Common/DEMO/HDRP_Settings/DawnDefaultSceneRoot.prefab
+  artifactKey: Guid(e26126ac1180c65419058836ad68805e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/QuangPhan/Common/DEMO/HDRP_Settings/DawnDefaultSceneRoot.prefab using Guid(e26126ac1180c65419058836ad68805e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a9ce90372f33b0ea681a9fb3c721304e') in 0.0182528 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/QuangPhan/Common/Meshes/Avatar/SK_Human.fbx
+  artifactKey: Guid(96d3e07f2ea766047b447fc6cb57e4df) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/QuangPhan/Common/Meshes/Avatar/SK_Human.fbx using Guid(96d3e07f2ea766047b447fc6cb57e4df) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c5f91afd7aaa6e97b45e06d632a69976') in 0.0369301 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 176
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/QuangPhan/G2_Mercenaries/Materials/Characters/Skins/MI_MBody.mat
+  artifactKey: Guid(f7575157d8f240445a036d2a45e297d4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/QuangPhan/G2_Mercenaries/Materials/Characters/Skins/MI_MBody.mat using Guid(f7575157d8f240445a036d2a45e297d4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b0736f058a53b2627811248237195097') in 0.2450698 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.751694 seconds.
+  path: Assets/QuangPhan/G2_Mercenaries/Textures/Clothes/Underwear/T_Underwear_BC.tga
+  artifactKey: Guid(d89014eb6a66b8c408e76b7b65472916) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/QuangPhan/G2_Mercenaries/Textures/Clothes/Underwear/T_Underwear_BC.tga using Guid(d89014eb6a66b8c408e76b7b65472916) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '54f9ecf58e4877943c4f2ec3af55aaba') in 0.0372447 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/QuangPhan/G2_Mercenaries/Materials/Characters/Skins/Examples/MI_Body 1.mat
+  artifactKey: Guid(4e35e52342564d64384a725bd9b2bba5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/QuangPhan/G2_Mercenaries/Materials/Characters/Skins/Examples/MI_Body 1.mat using Guid(4e35e52342564d64384a725bd9b2bba5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fe5fd2bd1080773da5dc783cd9c7e894') in 0.1388616 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/QuangPhan/Common/DEMO/Scripts/TextMesh Pro/Shaders/TMPro.cginc
+  artifactKey: Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/QuangPhan/Common/DEMO/Scripts/TextMesh Pro/Shaders/TMPro.cginc using Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b7c1669ef563ef1eab0d14af20d638ef') in 0.0179687 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/QuangPhan/G2_Mercenaries/Materials/Characters/Skins/Examples/MI_Body 2.mat
+  artifactKey: Guid(f032134194cfe9d4085d70600b6047b4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/QuangPhan/G2_Mercenaries/Materials/Characters/Skins/Examples/MI_Body 2.mat using Guid(f032134194cfe9d4085d70600b6047b4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8377999e75dc2939db20e862088ec24a') in 0.1038865 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/QuangPhan/Common/DEMO/Scripts/TPS Scrips/Controllers/ThirdPersonController/Scripts/ThirdPersonController.cs
+  artifactKey: Guid(26e54e5a728a9234ab24fcf1460ed8a2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/QuangPhan/Common/DEMO/Scripts/TPS Scrips/Controllers/ThirdPersonController/Scripts/ThirdPersonController.cs using Guid(26e54e5a728a9234ab24fcf1460ed8a2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '116b72a7ab8c96b500970ef6e5dc1486') in 0.0200039 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/QuangPhan/G2_Mercenaries/Textures/Clothes/Underwear/T_Underwear_Dirt.tga
+  artifactKey: Guid(d59b35f0c5f74dc4dbe0f676297e02a8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/QuangPhan/G2_Mercenaries/Textures/Clothes/Underwear/T_Underwear_Dirt.tga using Guid(d59b35f0c5f74dc4dbe0f676297e02a8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ebd8c12142aef781da956656fa25dc2d') in 0.0333728 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/QuangPhan/Common/DEMO/Scripts/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/QuangPhan/Common/DEMO/Scripts/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '959675a36fcef3f2b47bd1a4e1304e95') in 0.030878 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/QuangPhan/Common/DEMO/Scripts/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+  artifactKey: Guid(1e3b057af24249748ff873be7fafee47) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/QuangPhan/Common/DEMO/Scripts/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader using Guid(1e3b057af24249748ff873be7fafee47) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '96934c414e1f2397bb9674ca161b6636') in 0.022653 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/QuangPhan/Common/DEMO/Scripts/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+  artifactKey: Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/QuangPhan/Common/DEMO/Scripts/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset using Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2442db7b3264d4e0c8af3a35e37f4339') in 0.0305526 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/QuangPhan/Common/DEMO/Scripts/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+  artifactKey: Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/QuangPhan/Common/DEMO/Scripts/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf using Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a90b656af92a852501bc7cd6298b7844') in 0.0156859 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/QuangPhan/Common/DEMO/Scripts/TextMesh Pro/Shaders/TMP_Sprite.shader
+  artifactKey: Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/QuangPhan/Common/DEMO/Scripts/TextMesh Pro/Shaders/TMP_Sprite.shader using Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'be2287186ba165f0cc66548024522e33') in 0.0225069 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/QuangPhan/Common/DEMO/Scripts/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+  artifactKey: Guid(381dcb09d5029d14897e55f98031fca5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/QuangPhan/Common/DEMO/Scripts/TextMesh Pro/Sprites/EmojiOne Attribution.txt using Guid(381dcb09d5029d14897e55f98031fca5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1919bba1bfa3985b2846df79e7bd27aa') in 0.0121534 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/QuangPhan/Common/DEMO/Scripts/TPS Scrips/Controllers/Common/BasicRigidBodyPush.cs
+  artifactKey: Guid(909d917d73a63f940ac158d02e936645) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/QuangPhan/Common/DEMO/Scripts/TPS Scrips/Controllers/Common/BasicRigidBodyPush.cs using Guid(909d917d73a63f940ac158d02e936645) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cebe2483335a167ac4d527139d3a00c6') in 0.0152201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.825 seconds
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.844 seconds
+Domain Reload Profiling: 1672ms
+	BeginReloadAssembly (271ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (78ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (468ms)
+		LoadAssemblies (399ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (198ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (167ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (845ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (652ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (153ms)
+			ProcessInitializeOnLoadAttributes (425ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6111 unused Assets / (4.6 MB). Loaded Objects now: 6852.
+Memory consumption went from 144.5 MB to 139.9 MB.
+Total: 8.788800 ms (FindLiveObjects: 0.639800 ms CreateObjectMapping: 0.543100 ms MarkObjects: 5.211900 ms  DeleteObjects: 2.392700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
