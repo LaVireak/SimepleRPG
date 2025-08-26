@@ -1,11 +1,38 @@
+# Unity generated
 [Ll]ibrary/
 [Tt]emp/
+[Oo]bj/
 [Bb]uild/
 [Bb]uilds/
-[Ll]ogs/
-[Mm]emoryCaptures/
-[Oo]bj/
 UserSettings/
+MemoryCaptures/
+Logs/
 
-# Ignore Package Cache
-Packages/com.unity.burst*/
+# Asset meta data should not be ignored (keep)
+# Visual Studio / Rider / OS
+.vscode/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.unityproj
+*.booproj
+*.svd
+*.pdb
+*.mdb
+
+# Packages / Cache
+Packages/
+PackageCache/
+Assets/AssetStoreTools*
+
+# Unity3D generated files
+sysinfo.txt
+
+# LFS - keep .gitattributes in repo
+.gitattributes
+
+# Ignore Unity package backups and large exported packages
+*.unitypackage
